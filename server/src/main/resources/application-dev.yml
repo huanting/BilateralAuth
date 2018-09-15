@@ -1,0 +1,34 @@
+# 开发配置文件
+server:
+  port: 8080 # 端口号
+  servlet:
+    context-path: /bauth # 访问项目名
+
+#  #双向验证
+#  port: 8443
+#
+#  #单项验证
+#  ssl:
+#    #存放的是：服务器私钥+公钥
+#    key-store: src/main/resources/server.p12
+#    key-store-password: server1234
+#    key-alias: 1
+#    key-store-type: PKCS12
+#
+#    #验证客户端：存放的是客户端公钥
+#    trust-store: src/main/resources/client.p12
+#    trust-store-password: client1234
+#    client-auth: need
+#    trust-store-type: PKCS12
+
+
+
+spring:
+    http:
+      encoding:
+        enabled: true
+        charset: UTF-8
+
+logging:
+  level:
+    ROOT: DEBUG

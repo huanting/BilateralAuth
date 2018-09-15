@@ -1,0 +1,15 @@
+# 开发配置文件
+server:
+  port: 8082 # 端口号
+  servlet:
+    context-path: /bauth # 访问项目名
+
+spring:
+    http:
+      encoding:
+        enabled: true
+        charset: UTF-8
+
+logging:
+  level:
+    ROOT: DEBUG

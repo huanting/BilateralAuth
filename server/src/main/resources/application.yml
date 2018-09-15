@@ -1,0 +1,4 @@
+# 配置 当前是产线环境还是开发环境
+spring:
+  profiles:
+    active: dev
